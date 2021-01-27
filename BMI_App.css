@@ -1,0 +1,81 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+* {
+    font-family: 'ABeeZee', sans-serif;
+}
+
+.container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(1, 2, 1, 0.822);
+}
+.app {
+    background-image:url("BMI_App.webp");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat; 
+    border-radius: 20px 20px 20px 20px;
+    height: auto;
+    width: 370px;
+    color: white;
+    position: relative;
+}
+
+.app h2 {
+    margin: 0;
+    border-radius: 10px 10px 0px 0px;
+    padding: 10px;
+    text-align: center;
+    background:seagreen;
+    color: white;
+}
+#date {
+    height: auto;
+    width: 100%;
+    position: absolute;
+    right: 10px;
+    top: 55px;
+    color: #e2e20e ;
+    text-align: right;
+}
+.app_body {
+    width: 100%;
+    padding: 40px 30px ;
+}
+
+#height, #weight, #weightAccess {
+    height: 30px;
+    margin: 10px;
+}
+#weightAccess {
+    background-color: #ffffff;
+    border: none;
+}
+#text {
+    height: auto;
+    width: 70%;
+    padding: 10px;
+    margin: 10px;
+    color: black;
+}
+#Calculate {
+    display: block;
+    margin: 40px 0;
+    width: 70%;
+    padding: 10px;
+    text-decoration: none;
+    text-align: center;
+    color: white;
+    background-color: seagreen;
+    transition: .5s ease-in;
+    border-radius: 0pc 0pc 5pc 0pc;
+}
+#Calculate:hover {
+    background-color: #e2e20e;
+}
