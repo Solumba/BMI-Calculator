@@ -8,9 +8,12 @@
     let text = document.getElementById("text");
 
     // to display time
-    var time = new  Date(Date.now());
-    time = time.toLocaleTimeString();
-    today.innerHTML = "Time: " + time ;
+    const showTime = ()=>{
+        var time = new  Date(Date.now());
+        time = time.toLocaleTimeString();
+        today.innerHTML = "Time: " + time;
+    }
+    setInterval(showTime, 1000);
 
     // function to calculate Bmi and dsiplay total
     Calculate.onclick = function (){
